@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project name</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">   
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark justify-content-between d-flex">
+            <a class="navbar-brand my-1" href="index.html"><img src="assets/logo/logo.png" alt=""></a>
+            <div class="contact-information my-1">
+                <div class="contact-phone">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <p>+7 940 725 625 85</p>
+                </div>
+                <span>|</span>
+                <a href="#" class="wish-list"><i class="fas fa-heart"></i><span>1</span></a>
+            </div>
+            <form class="form-inline my-1">
+                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </nav>
+        <nav id="menu-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">РАСПРОДАЖА</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">ШКАФЫ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">КОМОДЫ И ТУМБЫ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">ГОСТИНЫЕ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">СПАЛЬНИ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">ПРИХОЖИЕ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">ДЕТСКИЕ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">КУХНИ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">МЕБЕЛЬ ИЗ МДФ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            МЕБЕЛЬ НА ЗАКАЗ
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="carusel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/slider-images/slider-image-1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/slider-images/slider-image-2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/slider-images/slider-image-3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+    <section class="section category">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h1>категории</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente blanditiis veniam odio debitis ea veritatis quod nulla quisquam labore quo!</small>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+                            <div class="card-category">
+                                <div class="card">
+                                    <div class="card-image card-image-bedroom"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">category name</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+                            <div class="card-category">
+                                <div class="card">
+                                    <div class="card-image card-image-garderob"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">category name</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+                            <div class="card-category">
+                                <div class="card">
+                                    <div class="card-image card-image-kids-room"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">category name</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+                            <div class="card-category">
+                                <div class="card">
+                                    <div class="card-image card-image-living-room"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">category name</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+                            <div class="card-category">
+                                <div class="card">
+                                    <div class="card-image card-image-kitchen"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">category name</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+                            <div class="card-category">
+                                <div class="card">
+                                    <div class="card-image card-image-bedroom"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">category name</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="w-100 text-center my-3">
+                                <a href="/category-page.html" class="btn btn-primary">all categories</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-background new-collections">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h1>ПОСЛЕДНИЕ</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente blanditiis veniam odio debitis ea veritatis quod nulla quisquam labore quo!</small>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="item-slider-wrapper">
+                        <a href="#" class="item-grid-arrow arrow-right"><i class="fas fa-chevron-right"></i></a>
+                        <a href="#" class="item-grid-arrow arrow-left"><i class="fas fa-chevron-left"></i></a>
+                        <div class="item-slider-max-5 item-slider">
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section stock-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h1>АКЦИИ</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente blanditiis veniam odio debitis ea veritatis quod nulla quisquam labore quo!</small>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="item-slider-wrapper">
+                        <a href="#" class="item-grid-arrow arrow-right"><i class="fas fa-chevron-right"></i></a>
+                        <a href="#" class="item-grid-arrow arrow-left"><i class="fas fa-chevron-left"></i></a>
+                        <div class="item-slider-max-5 item-slider">
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="card product-wrpper">
+                                    <div class="item-image" style="background-image: url(/assets/item-image/item-1.jpg);">
+                                        <div class="product-settings">
+                                            <i class="fas fa-search-plus"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <p class="product-discount">-10<span>%</span></p>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-text my-2">item name</h5>
+                                        <div class="rating"><div></div></div>
+                                        <div class="product-price-wrapper">
+                                            <p class="item-price new-price"><span>rub</span>15.000</p>
+                                            <p class="item-price old-price"><span>rub</span>25.000</p>
+                                        </div>
+                                        <hr class="my-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus. Dolor eum aut nam totam.</p>
+                                        <a href="#" class="btn btn-primary my-2">Go to product</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-background services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h1>Купить мебель от производителя в Москве и области</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente blanditiis veniam odio debitis ea veritatis quod nulla quisquam labore quo!</small>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="service-flex">
+                        <div class="our-service">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 518.13 247.83"><title>prepayment</title><path d="M223.58,62c0,41.65-15.46,64.65-42.6,64.65-23.94,0-40.15-22.43-40.52-63,0-41.08,17.71-63.7,42.59-63.7C208.88,0,223.58,23,223.58,62ZM157,63.9c0,31.85,9.8,49.94,24.88,49.94,17,0,25.07-19.79,25.07-51.07,0-30.16-7.73-49.95-24.88-49.95C167.6,12.82,157,30.53,157,63.9Z"/><path d="M294.09,36.56c0,25.83-13.57,38.64-29.4,38.64C249.42,75.2,236.23,63,236,38.26,236,13.76,249.42,0,265.63,0,282.78,0,294.09,13.19,294.09,36.56ZM249.23,37.7c-.38,15.64,5.47,27.51,15.83,27.51,10.93,0,15.84-11.68,15.84-27.89,0-14.89-4.34-27.33-15.84-27.33C254.7,10,249.23,22.24,249.23,37.7Zm14.33,89L335.56,0h10.55l-72,126.66ZM373.82,87.27c0,25.82-13.57,38.63-29.22,38.63-15.27,0-28.46-12.25-28.65-36.75,0-24.69,13.38-38.45,29.6-38.45C362.7,50.7,373.82,63.9,373.82,87.27ZM329,88.4c-.19,15.64,5.84,27.51,16,27.51,10.93,0,15.83-11.68,15.83-27.89,0-14.89-4.34-27.33-15.83-27.33C334.61,60.69,329,72.94,329,88.4Z"/><path d="M44.05,172.22v60.95H36.18V178.82H7.87v54.35H0V172.22Z"/><path d="M57.82,172.94a91.57,91.57,0,0,1,15.11-1.18c7.77,0,13.47,1.81,17.09,5.07,3.35,2.89,5.34,7.32,5.34,12.75s-1.63,9.86-4.71,13C86.49,207,79.71,209.3,72,209.3a26.65,26.65,0,0,1-6.33-.55v24.42H57.82Zm7.87,29.39a26,26,0,0,0,6.51.64c9.5,0,15.29-4.62,15.29-13,0-8.05-5.7-11.93-14.38-11.93a33.22,33.22,0,0,0-7.42.63Z"/><path d="M137.53,204.59h-23.7v22h26.41v6.6H106V172.22h32.92v6.6h-25v19.26h23.7Z"/><path d="M194,172.22v54.53l5.33.18-.54,20.9h-6.15l-.54-14.66H153.65l-.54,14.66H147l-.54-20.9,4.61-.18a72,72,0,0,0,6-13.38c2.08-7.06,2.89-15.2,2.89-25.69V172.22Zm-26.77,18c0,9.76-.91,18-3.08,24.87a58.79,58.79,0,0,1-5,11.57h27V178.73h-18.9Z"/><path d="M260.58,202.06c0,21-12.75,32.11-28.3,32.11-16.1,0-27.41-12.48-27.41-30.93,0-19.36,12-32,28.31-32C249.82,171.22,260.58,184,260.58,202.06Zm-47.3,1c0,13,7.06,24.69,19.45,24.69s19.53-11.49,19.53-25.32c0-12.13-6.33-24.79-19.44-24.79S213.28,189.67,213.28,203.06Z"/><path d="M314.88,172.22v60.95H307V178.82H278.71v54.35h-7.87V172.22Z"/><path d="M369,172.22v60.95h-8V178.82H340.87v18.45c0,13.2-.54,27.94-9.13,33.73a18.29,18.29,0,0,1-9.32,2.9l-1-6.33a14,14,0,0,0,6.42-3.26c4.88-4.79,5.34-16.64,5.34-26.41V172.22Z"/><path d="M392.54,214l-6.32,19.17h-8.15l20.72-60.95h9.49l20.8,60.95h-8.41L414.16,214Zm20-6.15-6-17.55c-1.35-4-2.26-7.59-3.16-11.12h-.18c-.91,3.62-1.9,7.33-3.08,11l-6,17.63Z"/><path d="M445.66,178.91H427.12v-6.69h45.13v6.69H453.62v54.26h-8Z"/><path d="M481.59,214l-6.33,19.17h-8.14l20.7-60.95h9.5l20.81,60.95h-8.42L503.2,214Zm20-6.15-6-17.55c-1.36-4-2.26-7.59-3.17-11.12h-.18c-.91,3.62-1.9,7.33-3.07,11l-6,17.63Z"/></svg>
+                            <small>Lorem, ipsum dolor.</small>
+                        </div>
+                        <div class="our-service">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M476.158,286.938l-13.259-53.035c3.625-0.77,6.345-3.986,6.345-7.839v-8.551c0-18.566-15.105-33.67-33.67-33.67h-60.392    v-17.637c0-9.136-7.432-16.568-16.568-16.568H246.32l68.24-27.296c4.111-1.644,6.11-6.31,4.466-10.421    c-1.644-4.11-6.307-6.111-10.421-4.466l-55.874,22.349c17.026-10.924,33.871-22.947,40.284-31.355    c12.485-16.369,9.323-39.843-7.046-52.328c-16.369-12.486-39.843-9.323-52.328,7.046c-9.122,11.962-21.158,45.573-28.948,69.258    c-7.79-23.683-19.826-57.296-28.948-69.258c-12.484-16.369-35.959-19.53-52.328-7.046c-16.369,12.484-19.53,35.958-7.046,52.328    c6.413,8.409,23.257,20.431,40.284,31.355l-55.874-22.349c-4.113-1.647-8.777,0.355-10.421,4.466    c-1.645,4.111,0.355,8.777,4.466,10.421l68.24,27.296H50.772c-9.136,0-16.568,7.432-16.568,16.568v145.37    c0,4.427,3.589,8.017,8.017,8.017c4.427,0,8.017-3.589,8.017-8.017v-145.37c0-0.295,0.239-0.534,0.534-0.534h307.841    c0.295,0,0.534,0.239,0.534,0.534v145.372c0,4.427,3.589,8.017,8.017,8.017c4.427,0,8.017-3.589,8.017-8.017v-9.088h94.566    c0.009,0,0.016,0.002,0.025,0.002s0.017-0.001,0.026-0.001c11.636,0.009,21.516,7.647,24.908,18.171h-24.928    c-4.427,0-8.017,3.589-8.017,8.017v17.102c0,13.851,11.268,25.119,25.119,25.119h9.086v35.273h-20.962    c-6.886-19.882-25.787-34.205-47.982-34.205s-41.097,14.322-47.982,34.205h-3.86V345.78c0-4.427-3.589-8.017-8.017-8.017    c-4.427,0-8.017,3.589-8.017,8.017v60.392H192.817c-6.886-19.882-25.787-34.205-47.982-34.205s-41.097,14.322-47.982,34.205    H50.772c-0.295,0-0.534-0.239-0.534-0.534v-17.637h34.739c4.427,0,8.017-3.589,8.017-8.017s-3.589-8.017-8.017-8.017H8.017    c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017h26.188v17.637c0,9.136,7.432,16.568,16.568,16.568h43.304    c-0.002,0.178-0.014,0.355-0.014,0.534c0,27.995,22.777,50.772,50.772,50.772s50.772-22.777,50.772-50.772    c0-0.18-0.012-0.356-0.014-0.534h180.67c-0.002,0.178-0.014,0.355-0.014,0.534c0,27.995,22.777,50.772,50.772,50.772    c27.995,0,50.772-22.777,50.772-50.772c0-0.18-0.012-0.356-0.014-0.534h26.203c4.427,0,8.017-3.589,8.017-8.017v-85.511    C512,307.564,496.423,290.022,476.158,286.938z M172.9,121.059c-31.623-19.651-41.003-28.692-43.78-32.334    c-7.123-9.339-5.319-22.732,4.021-29.855c3.85-2.936,8.388-4.355,12.893-4.355c6.422,0,12.776,2.886,16.963,8.376    c7.755,10.168,19.9,44.391,27.918,69.052C185.504,128.757,179.284,125.028,172.9,121.059z M218.473,131.942    c8.018-24.66,20.163-58.882,27.917-69.052c7.123-9.339,20.516-11.142,29.855-4.02c9.34,7.123,11.143,20.516,4.021,29.855    c-2.777,3.641-12.157,12.683-43.778,32.333C230.105,125.026,223.885,128.756,218.473,131.942z M375.182,199.875h60.392    c9.725,0,17.637,7.912,17.637,17.637v0.534h-78.029V199.875z M375.182,286.456V234.08h71.235l13.094,52.376H375.182z     M144.835,457.479c-19.155,0-34.739-15.584-34.739-34.739s15.584-34.739,34.739-34.739c19.155,0,34.739,15.584,34.739,34.739    S163.99,457.479,144.835,457.479z M427.023,457.479c-19.155,0-34.739-15.584-34.739-34.739s15.584-34.739,34.739-34.739    c19.155,0,34.739,15.584,34.739,34.739S446.178,457.479,427.023,457.479z M495.967,354.865h-9.086    c-5.01,0-9.086-4.076-9.086-9.086v-9.086h18.171V354.865z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M144.835,406.172c-9.136,0-16.568,7.432-16.568,16.568s7.432,16.568,16.568,16.568c9.136,0,16.568-7.432,16.568-16.568    S153.971,406.172,144.835,406.172z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M427.023,406.172c-9.136,0-16.568,7.432-16.568,16.568s7.432,16.568,16.568,16.568c9.136,0,16.568-7.432,16.568-16.568    S436.159,406.172,427.023,406.172z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M332.96,371.967H213.244c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017H332.96    c4.427,0,8.017-3.589,8.017-8.017S337.388,371.967,332.96,371.967z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M127.733,337.763H25.119c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017h102.614    c4.427,0,8.017-3.589,8.017-8.017S132.16,337.763,127.733,337.763z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M127.733,218.046H93.528c-4.427,0-8.017,3.589-8.017,8.017v68.409c0,4.427,3.589,8.017,8.017,8.017    s8.017-3.589,8.017-8.017v-26.188h17.637c4.427,0,8.017-3.589,8.017-8.017s-3.589-8.017-8.017-8.017h-17.637V234.08h26.188    c4.427,0,8.017-3.589,8.017-8.017C135.749,221.636,132.16,218.046,127.733,218.046z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M190.822,272.043c8.023-5.255,13.337-14.317,13.337-24.602c0-16.209-13.186-29.395-29.395-29.395h-21.378    c-4.427,0-8.017,3.589-8.017,8.017v68.409c0,4.427,3.589,8.017,8.017,8.017s8.017-3.589,8.017-8.017v-17.637h13.346l14.722,22.083    c1.545,2.317,4.086,3.571,6.677,3.571c1.529,0,3.073-0.436,4.439-1.348c3.685-2.455,4.68-7.433,2.223-11.116L190.822,272.043z     M174.764,260.802h-13.361V234.08h13.361c7.368,0,13.361,5.993,13.361,13.361C188.125,254.809,182.132,260.802,174.764,260.802z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M256,286.456h-26.188v-18.198c0.177,0.012,0.354,0.027,0.534,0.027h17.102c4.427,0,8.017-3.589,8.017-8.017    s-3.589-8.017-8.017-8.017h-17.102c-0.181,0-0.357,0.015-0.534,0.027V234.08H256c4.427,0,8.017-3.589,8.017-8.017    c0-4.427-3.589-8.017-8.017-8.017h-34.205c-4.427,0-8.017,3.589-8.017,8.017v68.409c0,4.427,3.589,8.017,8.017,8.017H256    c4.427,0,8.017-3.589,8.017-8.017S260.427,286.456,256,286.456z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M315.858,286.456H289.67v-18.171h9.086c4.427,0,8.017-3.589,8.017-8.017s-3.589-8.017-8.017-8.017h-9.086V234.08h26.188    c4.427,0,8.017-3.589,8.017-8.017c0-4.427-3.589-8.017-8.017-8.017h-34.205c-4.427,0-8.017,3.589-8.017,8.017v68.409    c0,4.427,3.589,8.017,8.017,8.017h34.205c4.427,0,8.017-3.589,8.017-8.017S320.285,286.456,315.858,286.456z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                </svg>                       
+                            <small>Lorem, ipsum dolor.</small>
+                        </div>
+                        <div class="our-service">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 511 511"><title>pencil</title><path d="M174.69,337.36a10,10,0,1,0,0-14.12A10,10,0,0,0,174.69,337.36Z"/><path d="M217,309.12l95.51-95.57a10,10,0,0,0-14.12-14.11L202.92,295A10,10,0,1,0,217,309.12Z"/><path d="M157.21,270.15l-86,86a10,10,0,0,0-2.26,3.5.36.36,0,0,0,0,.09c-7.94,21.47-32,86.58-41.5,112.2a10,10,0,0,0,12.84,12.82l112.06-41.63a10.16,10.16,0,0,0,3.59-2.29l85.95-86L395.14,509a10,10,0,0,0,7.08,2.94h0a10,10,0,0,0,7.08-3l98.8-99.72a10,10,0,0,0,0-14.08L354.83,241.9,467.67,129.06A59.88,59.88,0,1,0,383,44.37L270.14,157.22,116.83,3.92a10,10,0,0,0-14.07,0L3,102.67a10,10,0,0,0,0,14.18Zm120-91.75h0l62.23-62.23,56.46,56.46-62.23,62.22h0L148.88,419.62,92.42,363.16Zm97.53-97.54,56.46,56.46L410,158.5,353.55,102ZM89.66,445.09,67,422.45l15.24-41.21,48.56,48.56Zm-30.26-2,9.68,9.67-15.36,5.71ZM363.87,279.17l-42.76,42.75A10,10,0,0,0,335.22,336L378,293.29l30.23,30.22-28.65,28.64a10,10,0,0,0,14.12,14.12l28.65-28.65,30.23,30.24L409.8,410.61a10,10,0,0,0,14.11,14.12L466.67,382l20.27,20.26c-84.28,84.21-84.73,85.52-84.73,85.52L256,340.73,340.72,256ZM453.56,58.49a39.89,39.89,0,0,1,0,56.46l-8.26,8.26L388.84,66.75l8.26-8.26A39.88,39.88,0,0,1,453.56,58.49ZM132,47.33,89.26,90.07a10,10,0,1,0,14.11,14.12l42.76-42.75,30.22,30.23L147.72,120.3a10,10,0,1,0,14.11,14.12l28.64-28.64L218.69,134l-42.75,42.76a10,10,0,0,0,14.11,14.11l42.75-42.75L256,171.34,171.33,256,24.15,109.78s1.39-.45,85.59-84.72Z"/></svg>
+                            <small>Lorem, ipsum dolor.</small>
+                        </div>
+                        <div class="our-service">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M366,396c-5.52,0-10,4.48-10,10c0,5.52,4.48,10,10,10c5.52,0,10-4.48,10-10C376,400.48,371.52,396,366,396z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M390.622,363.663l-47.53-15.84l-17.063-34.127c15.372-15.646,26.045-36.348,29.644-57.941L357.801,243H376    c16.542,0,30-13.458,30-30v-63C406,67.29,338.71,0,256,0c-82.922,0-150,67.097-150,150v63c0,13.036,8.361,24.152,20,28.28V253    c0,16.542,13.458,30,30,30h8.782c4.335,9.417,9.946,18.139,16.774,25.974c1.416,1.628,2.893,3.206,4.406,4.741l-17.054,34.108    l-47.531,15.841C66.112,382.092,26,440.271,26,502c0,5.523,4.477,10,10,10h440c5.522,0,10-4.477,10-10    C486,440.271,445.889,382.092,390.622,363.663z M386,213c0,5.514-4.486,10-10,10h-15.262c2.542-19.69,4.236-40.643,4.917-61.28    c0.02-0.582,0.036-1.148,0.054-1.72H386V213z M136,223c-5.514,0-10-4.486-10-10v-53h20.298c0.033,1.043,0.068,2.091,0.107,3.146    c0.001,0.036,0.003,0.071,0.004,0.107c0,0.003,0,0.006,0,0.009c0.7,20.072,2.372,40.481,4.856,59.737H136V223z M156,263    c-5.514,0-10-4.486-10-10v-10h8.198l2.128,12.759c0.406,2.425,0.905,4.841,1.482,7.241H156z M146.017,140H126.38    C131.445,72.979,187.377,20,256,20c68.318,0,124.496,52.972,129.619,120h-19.635c-0.72-55.227-45.693-100-101.033-100h-17.9    C191.712,40,146.736,84.773,146.017,140z M247.05,60h17.9c44.809,0,81.076,36.651,81.05,81.41c0,3.147-0.025,5.887-0.078,8.38    c0,0.032-0.001,0.065-0.001,0.098l-12.508-1.787c-33.98-4.852-66.064-20.894-90.342-45.172C241.195,101.054,238.652,100,236,100    c-26.856,0-52.564,12.236-69.558,32.908C170.63,92.189,205.053,60,247.05,60z M178.54,263c-5.006-16.653-10.734-65.653-12-97.053    l13.459-17.946c12.361-16.476,31.592-26.713,52.049-27.888c26.917,25.616,61.739,42.532,98.537,47.786l14.722,2.104    c-0.984,20.885-2.995,41.843-5.876,61.118c-0.001,0.006-0.002,0.013-0.003,0.02c-0.916,6.197-1.638,10.185-3.482,21.324    c-5.296,31.765-28.998,60.49-60.287,68.313c-12.877,3.215-26.443,3.214-39.313,0c-19.537-4.884-37.451-18.402-49.012-37.778    h20.386c4.128,11.639,15.243,20,28.28,20h20c16.575,0,30-13.424,30-30c0-16.542-13.458-30-30-30h-20    c-13.327,0-24.278,8.608-28.297,20H178.54z M235.159,341.016c6.859,1.445,13.852,2.184,20.841,2.184    c5.471,0,10.943-0.458,16.353-1.346l-17.67,18.687L235.159,341.016z M240.935,375.079l-31.718,33.542    c-8.732-16.714-16.235-34.109-22.389-51.917l11.911-23.822L240.935,375.079z M311.566,329.494l13.604,27.209    c-6.164,17.838-13.669,35.239-22.392,51.933l-33.948-33.948L311.566,329.494z M226,273c0-5.521,4.478-10,10-10h20    c5.514,0,10,4.486,10,10c0,5.522-4.479,10-10,10h-20C230.486,283,226,278.514,226,273z M46.4,492    c3.963-49.539,36.932-94.567,81.302-109.363l42.094-14.028c7.712,21.325,17.266,42.052,28.463,61.74    c0.019,0.034,0.037,0.068,0.056,0.101c0,0.001,0.001,0.001,0.001,0.002c8.181,14.389,17.389,28.45,27.372,41.799L237.99,492H46.4z     M256,483.086l-13.562-21.773c-0.152-0.244-0.314-0.481-0.486-0.711c-8.098-10.802-15.652-22.099-22.532-33.662l35.663-37.714    l37.578,37.578c-6.926,11.647-14.506,22.991-22.611,33.796C269.56,461.253,270.255,460.224,256,483.086z M274.01,492    l12.301-19.748c10.027-13.4,19.301-27.574,27.564-42.132c0.05-0.088,0.097-0.178,0.147-0.266c0.006-0.011,0.012-0.021,0.018-0.032    c11.055-19.5,20.509-40.047,28.164-61.213l42.093,14.028c44.371,14.796,77.34,59.824,81.303,109.363H274.01z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M435.546,451.531c-6.683-13.377-16.472-25.261-28.309-34.367c-4.378-3.369-10.656-2.55-14.023,1.828    c-3.368,4.378-2.549,10.656,1.828,14.024c9.454,7.273,17.272,16.766,22.611,27.453c2.473,4.949,8.483,6.941,13.415,4.477    C436.008,462.478,438.013,456.472,435.546,451.531z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                </svg>
+                            <small>Lorem, ipsum dolor.</small>
+                        </div>
+                        <div class="our-service">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" data-name="Capa 1" viewBox="0 0 512 512"><title>factory</title><path d="M506.65,214.78a10,10,0,0,0-10.32.62L405.48,278V223.63a10,10,0,0,0-15.68-8.23L299,278V223.63a10,10,0,0,0-15.67-8.23L192.48,278V242a10,10,0,0,0-10-10h-18.6V132.11a24.83,24.83,0,0,0-24.79-24.82H106.23V78.6A80,80,0,0,0,120.94,80a66.77,66.77,0,0,0,33.61-8.75c17.66-10.2,29.75-28.48,34-51.49a10,10,0,0,0-6.5-11.27c-22.1-7.78-44-6.45-61.66,3.74A66.6,66.6,0,0,0,96.23,36.71,66.45,66.45,0,0,0,72,12.25C54.37,2.05,32.48.73,10.39,8.51A10,10,0,0,0,3.88,19.78c4.31,23,16.4,41.3,34.05,51.49A66.59,66.59,0,0,0,71.52,80,80,80,0,0,0,86.23,78.6v28.69H53.4a24.86,24.86,0,0,0-24.83,24.82V232H10A10,10,0,0,0,0,242V498.49a10,10,0,0,0,10,10H502a10,10,0,0,0,10-10V223.64a10,10,0,0,0-5.35-8.86ZM130.44,29.57c10.3-5.94,22.94-7.53,36.28-4.67-4.19,13-11.88,23.1-22.17,29.05s-22.94,7.53-36.27,4.67C112.47,45.66,120.15,35.51,130.44,29.57ZM47.93,54C37.64,48,30,37.87,25.76,24.9,39.1,22,51.73,23.63,62,29.57S80,45.65,84.18,58.62C70.85,61.48,58.22,59.89,47.93,54Zm5.47,73.34h85.69a4.87,4.87,0,0,1,4.79,4.82v22.73H48.57V132.11a4.83,4.83,0,0,1,4.83-4.82Zm-4.83,47.55h95.31V232H48.57Zm73.77,313.65H70.14V388.35a.26.26,0,0,1,.21-.23h51.76a.28.28,0,0,1,.23.23Zm50.15,0H142.34V388.35a20.26,20.26,0,0,0-20.23-20.23H70.35a20.25,20.25,0,0,0-20.21,20.23V488.49H20V252H172.49ZM492,438.62H384.48a10,10,0,0,0,0,20H492v29.87H192.48V458.62H294.65a10,10,0,0,0,0-20H192.48V302.25L279,242.67V297a10,10,0,0,0,15.67,8.23l90.83-62.56V297a10,10,0,0,0,15.67,8.23L492,242.66Z"/><path d="M275.54,338.63h-52.8a10,10,0,0,0-10,10v52.81a10,10,0,0,0,10,10h52.8a10,10,0,0,0,10-10V348.63A10,10,0,0,0,275.54,338.63Zm-10,52.81h-32.8V358.63h32.8Z"/><path d="M368.63,338.63H315.82a10,10,0,0,0-10,10v52.81a10,10,0,0,0,10,10h52.81a10,10,0,0,0,10-10V348.63a10,10,0,0,0-10-10Zm-10,52.81H325.82V358.63h32.81Z"/><path d="M398.91,401.44a10,10,0,0,0,10,10h52.81a10,10,0,0,0,10-10V348.63a10,10,0,0,0-10-10H408.91a10,10,0,0,0-10,10Zm20-42.81h32.81v32.81H418.91Z"/><path d="M339.58,438.62a10,10,0,0,0,0,20h0a10,10,0,0,0,0-20Z"/></svg>
+                            <small>Lorem, ipsum dolor.</small>
+                        </div>
+                        <div class="our-service">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M496,319.996c-8.832,0-16,7.168-16,16v112H32v-192h176c8.832,0,16-7.168,16-16c0-8.832-7.168-16-16-16H32v-64h176    c8.832,0,16-7.168,16-16c0-8.832-7.168-16-16-16H32c-17.664,0-32,14.336-32,32v288c0,17.664,14.336,32,32,32h448    c17.664,0,32-14.336,32-32v-112C512,327.164,504.832,319.996,496,319.996z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M144,319.996H80c-8.832,0-16,7.168-16,16c0,8.832,7.168,16,16,16h64c8.832,0,16-7.168,16-16    C160,327.164,152.832,319.996,144,319.996z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M502.304,81.276l-112-48c-4.064-1.696-8.576-1.696-12.64,0l-112,48c-5.856,2.528-9.664,8.32-9.664,14.72v64    c0,88.032,32.544,139.488,120.032,189.888c2.464,1.408,5.216,2.112,7.968,2.112s5.504-0.704,7.968-2.112    C479.456,299.612,512,248.156,512,159.996v-64C512,89.596,508.192,83.804,502.304,81.276z M480,159.996    c0,73.888-24.448,114.56-96,157.44c-71.552-42.976-96-83.648-96-157.44v-53.44l96-41.152l96,41.152V159.996z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M442.016,131.484c-6.88-5.44-16.928-4.384-22.496,2.496l-50.304,62.912l-19.904-29.76    c-4.96-7.36-14.912-9.312-22.176-4.448c-7.328,4.896-9.344,14.848-4.448,22.176l32,48c2.848,4.256,7.52,6.88,12.64,7.136    c0.224,0,0.48,0,0.672,0c4.832,0,9.44-2.176,12.512-6.016l64-80C450.016,147.068,448.928,137.02,442.016,131.484z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                </svg>   
+                                <small>Lorem, ipsum dolor.</small>                     
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <hr>
+                    <div class="aditional-information my-3">
+                        <div class="text-center my-3">
+                            <h4 class="text-capitalize">lorem ipsum</h4>
+                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-md-flex d-block">
+                        <div class="footer-info-wrapper mt-2">
+                            <ul class="footer-info-list">
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-info-wrapper mt-2">
+                            <ul class="footer-info-list">
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-info-wrapper mt-2">
+                            <ul class="footer-info-list">
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-info-wrapper mt-2">
+                            <ul class="footer-info-list d-flex">
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-odnoklassniki-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom-ruler slide-up-button"><i class="fas fa-chevron-up"></i></div>
+    <div class="bottom-ruler contact-us-button"><i class="far fa-envelope"></i>
+        <form id="contact-us" class="box-shadow d-none">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Phone number</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="phone number">
+              </div>
+            <div class="form-group">
+                <label for="message-contact-us">Example textarea</label>
+                <textarea class="form-control" id="message-contact-us" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+    </div>
+    <!-- bootstrap screpts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a92fd1a4bd.js" crossorigin="anonymous"></script>
+    <!-- my scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
