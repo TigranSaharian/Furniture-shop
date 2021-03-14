@@ -77,21 +77,6 @@ button[type="reset"] {
   background-size: cover;
   min-height: 150px;
 }
-.section .card-category .card-image-living-room {
-  background-image: url(assets/item-image/item-1.jpg);
-}
-.section .card-category .card-image-kids-room {
-  background-image: url(assets/item-image/item-2.jpg);
-}
-.section .card-category .card-image-garderob {
-  background-image: url(assets/item-image/item-3.jpg);
-}
-.section .card-category .card-image-bedroom {
-  background-image: url(assets/item-image/item-4.jpg);
-}
-.section .card-category .card-image-kitchen {
-  background-image: url(assets/item-image/item-5.jpg);
-}
 .section .card-category .card-title {
   text-align: center;
   text-transform: uppercase;
