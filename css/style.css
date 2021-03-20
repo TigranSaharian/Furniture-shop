@@ -25,6 +25,12 @@ button[type="reset"] {
   justify-content: space-between;
   width: 100%;
 }
+.navbar .navbar-nav .dropdown-menu {
+  top: 120%;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
 .menu-navbar-position {
   position: fixed;
   width: 100%;
@@ -119,7 +125,6 @@ button[type="reset"] {
   display: grid;
   grid-auto-flow: column;
   grid-gap: 1.4rem;
-  padding: 5px;
 }
 .item-slider .product-wrpper .card-title {
   text-transform: capitalize;
@@ -213,13 +218,8 @@ button[type="reset"] {
   color: #2C3A47;
   font-weight: 600;
 }
-.aditional-information ul {
-  list-style-type: square;
-  list-style-position: outside;
-  list-style-image: none;
-}
 .aditional-information ul li {
-  padding: 5px 0;
+  background-color: #f7f9fa;
 }
 .contact-information {
   display: flex;
@@ -409,6 +409,67 @@ footer .footer-info-wrapper .footer-info-list a i {
 }
 .product .product-info-wrapper .product-additional-info-wrapper .addtional-info .additional-info-value-wrapper .additional-info-value-unit {
   margin-left: 5px;
+}
+.filter-section {
+  padding: 30px 0 !important;
+}
+.filter-section .filter-wrapper {
+  padding: 0 15px;
+}
+.filter-section .filter-wrapper > p {
+  font-size: 25px;
+  color: #20bf6b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.filter-section .filter-wrapper .filter-content {
+  position: relative;
+}
+.filter-section .filter-wrapper .filter-content strong {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 10px 0;
+  display: block;
+}
+.filter-section .filter-wrapper .filter-content .form-check {
+  margin: 5px 0;
+  display: block;
+}
+.filter-section .filter-wrapper .filter-content .slidecontainer {
+  width: 100%;
+}
+.filter-section .filter-wrapper .filter-content .slidecontainer .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #e8ecf0;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.filter-section .filter-wrapper .filter-content .slidecontainer .slider:hover {
+  opacity: 1;
+}
+.filter-section .filter-wrapper .filter-content .slidecontainer .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #20bf6b;
+  cursor: pointer;
+}
+.filter-section .filter-wrapper .filter-content .slidecontainer .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #20bf6b;
+  cursor: pointer;
+}
+.filter-section .filter-wrapper .filter-content .slidecontainer p {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 @media (min-width: 320px) {
   .item-slider-wrapper .item-slider-max-5 {

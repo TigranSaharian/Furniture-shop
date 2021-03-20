@@ -50,8 +50,15 @@
                         <li class="nav-item">
                           <a class="nav-link" href="#">ГОСТИНЫЕ</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">СПАЛЬНИ</a>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="badroom-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              СПАЛЬНИ
+                            </a>
+                          <div class="dropdown-menu dropdown-menu-left" aria-labelledby="badroom-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">ПРИХОЖИЕ</a>
@@ -66,14 +73,14 @@
                           <a class="nav-link" href="#">МЕБЕЛЬ ИЗ МДФ</a>
                         </li>
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            МЕБЕЛЬ НА ЗАКАЗ
-                          </a>
-                          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
+                            <a class="nav-link dropdown-toggle" href="#" id="order-furniture" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                МЕБЕЛЬ НА ЗАКАЗ
+                              </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="order-furniture">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
                         </li>
                       </ul>
                 </div>
@@ -721,13 +728,13 @@
                         <div class="text-center my-3">
                             <h4 class="text-capitalize">lorem ipsum</h4>
                         </div>
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et iste. Culpa explicabo sunt voluptate</li>
-                        </ul>
+                        <ul class="list-group">
+                            <li class="list-group-item" aria-disabled="true">A disabled item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                            <li class="list-group-item">A fourth item</li>
+                            <li class="list-group-item">And a fifth one</li>
+                          </ul>
                     </div>
                 </div>
             </div>
